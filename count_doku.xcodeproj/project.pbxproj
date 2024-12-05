@@ -27,11 +27,44 @@
 		DF5C94052CFD95CC00688C17 /* count_doku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = count_doku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5C94152CFD95CD00688C17 /* count_dokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count_dokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5C941F2CFD95CD00688C17 /* count_dokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count_dokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF22BB92D014EDD00F45AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DF1DA40E2D01522C005F902D /* Exceptions for "count_doku" folder in "count_doku" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				"Resources/Font/Poppins/Poppins-Black.ttf",
+				"Resources/Font/Poppins/Poppins-BlackItalic.ttf",
+				"Resources/Font/Poppins/Poppins-Bold.ttf",
+				"Resources/Font/Poppins/Poppins-BoldItalic.ttf",
+				"Resources/Font/Poppins/Poppins-ExtraBold.ttf",
+				"Resources/Font/Poppins/Poppins-ExtraBoldItalic.ttf",
+				"Resources/Font/Poppins/Poppins-ExtraLight.ttf",
+				"Resources/Font/Poppins/Poppins-ExtraLightItalic.ttf",
+				"Resources/Font/Poppins/Poppins-Italic.ttf",
+				"Resources/Font/Poppins/Poppins-Light.ttf",
+				"Resources/Font/Poppins/Poppins-LightItalic.ttf",
+				"Resources/Font/Poppins/Poppins-Medium.ttf",
+				"Resources/Font/Poppins/Poppins-MediumItalic.ttf",
+				"Resources/Font/Poppins/Poppins-Regular.ttf",
+				"Resources/Font/Poppins/Poppins-SemiBold.ttf",
+				"Resources/Font/Poppins/Poppins-SemiBoldItalic.ttf",
+				"Resources/Font/Poppins/Poppins-Thin.ttf",
+				"Resources/Font/Poppins/Poppins-ThinItalic.ttf",
+				"Resources/Font/the artisan.otf",
+			);
+			target = DF5C94042CFD95CC00688C17 /* count_doku */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DF5C94072CFD95CC00688C17 /* count_doku */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DF1DA40E2D01522C005F902D /* Exceptions for "count_doku" folder in "count_doku" target */,
+			);
 			path = count_doku;
 			sourceTree = "<group>";
 		};
@@ -75,6 +108,7 @@
 		DF5C93FC2CFD95CC00688C17 = {
 			isa = PBXGroup;
 			children = (
+				DFF22BB92D014EDD00F45AEA /* Info.plist */,
 				DF5C94072CFD95CC00688C17 /* count_doku */,
 				DF5C94182CFD95CD00688C17 /* count_dokuTests */,
 				DF5C94222CFD95CD00688C17 /* count_dokuUITests */,
@@ -398,6 +432,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"count_doku/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +462,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"count_doku/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
